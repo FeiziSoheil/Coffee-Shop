@@ -1,0 +1,95 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+  }
+  
+  *,
+  *:after,
+  *:before {
+	box-sizing: inherit;
+  }
+  
+  body {
+	line-height: 1.6;
+	font-size: 1.6rem;
+  }
+  
+  
+  .container {
+	width: 100%;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+  }
+  
+  ::-webkit-scrollbar {
+	width: 0;
+  }
+
+:root {
+	--secondary-color-bg: #cb8a58;
+	--primary-color-bg: #562b1a;
+	--third-color-bg: #000000;
+	--text-primaryColor:#000000;
+	--text-secondaryColor:#FFFF;
+	--border-color: #bfbdc0;
+	--border-search-bar:#627281;
+	--border-categories:#846046;
+	--search-bar:#F8F7FA;
+	--bg-dark-color:rgb(42, 43, 54);
+}
+  

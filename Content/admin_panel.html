@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin_panel.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" href="images/image/logo.png">
+    <title>Admin Panel</title>
+    <script src= 
+    "https://cdn.jsdelivr.net/npm/moment@2.29.3/moment.min.js"> 
+    </script> 
+</head>
+<body>
+    <div class="panel__wrapper">
+        <section class="sideBar__section">
+            <span class="toggle-sideBar"></span>
+            <div class="container">
+                <div class="sidaBar-title__wrapper">
+                    <h2 class="sideBar-title">مشتری های امروز </h2>
+                    <h2 class="totlaPrice">مجکوع تراکنش روزانه :</h2>
+                </div>
+                <div class="sideBar-list__wrapper">
+                    <div class="sideBar-header">
+                        <h2 class="sideBar-header__title">مشتری</h2>
+                        <h2 class="sideBar-header__Time">زمان</h2>
+                        <h2 class="sideBar-header__price">قیمت کل</h2>
+                    </div>
+                    <ul class="sideBar-list">
+                        <!-- <li class="sideBar-">
+                            <p class="sideBar-list-__costumerDesk">صندلی 1</p>
+                            <p class="sideBar-list-__reserveTime">ساغت 2</p>
+                            <p class="sideBar-list-__costumerPrice">200 t</p>
+                        </li> -->
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+        <section class="main__section">
+            <div class="container">
+                <nav class="navBar-wrapper">
+                    <div class="logo-wrapper">
+                        <img class="logo" src="images/image/logo.png" alt="">
+                    </div>
+                    <div class="toggle__menu-wrapper">
+                        <span class="toggle-menu"></span>
+                    </div>
+                </nav>
+                <header class="header">
+                    <div class="date">
+                        <div class="date__current-time-wrapper">
+                            <h2 class="current-time">07:32 بعدازظهر</h2>
+                        </div>
+                        <div class="date__current-date-wrapper">
+                            <p class="current-date">شنبه 14 اسفند</p>
+                        </div>
+                    </div>
+                    <div class="daily-status">
+                        <h2 class="daily-status__title">تسویه شده روزانه</h2>
+                        <p class="daily-status__des">4 مشتری</p>
+                    </div>
+                </header>
+                <main class="main">
+                    <div class="filter">
+                        <div class="filter__search-wrapper">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.9463 21L17.4603 16.506L21.9463 21ZM19.9463 10.5C19.9463 12.7543 19.0508 14.9163 17.4567 16.5104C15.8626 18.1045 13.7006 19 11.4463 19C9.19195 19 7.02994 18.1045 5.43588 16.5104C3.84182 14.9163 2.94629 12.7543 2.94629 10.5C2.94629 8.24566 3.84182 6.08365 5.43588 4.48959C7.02994 2.89553 9.19195 2 11.4463 2C13.7006 2 15.8626 2.89553 17.4567 4.48959C19.0508 6.08365 19.9463 8.24566 19.9463 10.5V10.5Z" stroke="#A6A6AA" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <input class="filter__search" type="search" placeholder="جستجو">
+                        </div>
+                    </div>
+                    <div class="costumer-box">
+                        <div class="costumer-box__wrapper">
+                            <div class="costumer-box__header">
+                                <h2 class="header-id__title">ID</h2>
+                                <h2 class="header-time">زمان</h2>
+                                <h2 class="header-status">وضعیت</h2>
+                            </div>
+                            <div class="costumer-box__body">
+                                <!-- <div class="costumer-item__wrapper">
+                                    <div class="costumer-box__item">
+                                        <p class="costumer-item__id">صندلی 1</p>
+                                        <p class="costumer-item__time">شنبه 27 اذز</p>
+                                        <div class="costumer-item__status">
+                                            <button class="show-desk__status">نمایش</button>
+                                            <button class="costumer-item__status__btn">تسویه شده</button>
+                                        </div>
+                                    </div>
+                                    <div class="costumer-box__basket">
+                                    <div class="costumer-basket">
+                                        <ul class="costumer-basket__list">
+                                            <li class="costumer-basket__item">
+                                                <div class="basket-img__wrapper">
+                                                    <img src="images/image/list-item2.jpg" class="basket-img" alt="" srcset="">
+                                                </div>
+                                                <div class="basket-content">
+                                                    <div class="basket-content__header">
+                                                        <h2 class="basket-content__title">کافه امیرکن</h2>
+                                                        <p class="basket-content__des">کافه رستوران پرک لورم ایپسوم متن ساختگی در عین حال پر محتوا بریا یسلل شسیبسیب سرل سلیب یسمئسیرسی سیمئلخقث رئحفث </p>
+                                                    </div>
+                                                    <div class="basket-item__count">
+                                                        <p class="basket-item__count__des"> تعداد: 2</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                    <div class="costumer-basket">
+                                        <ul class="costumer-basket__list">
+                                            <li class="costumer-basket__item">
+                                                <div class="basket-img__wrapper">
+                                                    <img src="images/image/list-item2.jpg" class="basket-img" alt="" srcset="">
+                                                </div>
+                                                <div class="basket-content">
+                                                    <div class="basket-content__header">
+                                                        <h2 class="basket-content__title">کافه امیرکن</h2>
+                                                        <p class="basket-content__des">کافه رستوران پرک لورم ایپسوم متن ساختگی در عین حال پر محتوا بریا یسلل شسیبسیب سرل سلیب یسمئسیرسی سیمئلخقث رئحفث </p>
+                                                    </div>
+                                                    <div class="basket-item__count">
+                                                        <p class="basket-item__count__des"> تعداد: 2</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </section>
+    </div>
+    <script src="scripts/admin_panel.js"></script>
+</body>
+</html>

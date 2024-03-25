@@ -1,0 +1,24 @@
+@font-face {
+  font-family:'DiodrumArabic-Bold';
+  src: url('../fonts/DiodrumArabic-Bold.ttf') format(truetype);
+}
+@font-face {
+  font-family:'DiodrumArabic-Light';
+  src: url('../fonts/DiodrumArabic-Light.ttf') format(truetype);
+}
+@font-face {
+  font-family:'DiodrumArabic-Medium';
+  src: url('../fonts/DiodrumArabic-Medium.ttf') format(truetype);
+}
+@font-face {
+  font-family:'DiodrumArabic-Regular';
+  src: url('../fonts/DiodrumArabic-Regular.ttf') format(truetype);
+}
+@font-face {
+  font-family:'DiodrumArabic-Semibold';
+  src: url('../fonts/DiodrumArabic-Semibold.ttf') format(truetype);
+}
+@font-face {
+  font-family:'DiodrumArabic';
+  src: url('../fonts/DiodrumArabic.ttf') format(truetype);
+}

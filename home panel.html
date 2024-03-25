@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Content/css/app.css">
+    <link rel="stylesheet" href="Content/css/responsive.css">
+    <link rel="stylesheet" href="Content/css/reset.css">
+    <link rel="stylesheet" href="Content/css/theme.css">
+    <link rel="icon" href="images/logo.png">
+    <title>Coffee Shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a href="#" class="header__logo">
+            <svg
+              width="35"
+              height="35"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <rect width="28" height="28" fill="url(#pattern0)" />
+              <defs>
+                <pattern
+                  id="pattern0"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    xlink:href="#image0_106_355"
+                    transform="scale(0.00980392)"
+                  />
+                </pattern>
+                <image
+                  id="image0_106_355"
+                  width="102"
+                  height="102"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAABmCAYAAAA53+RiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAA/fSURBVHgB7V1NjBzFFX5r+WZsJhcjYUfu5QJGJjYHsr4g2uuYE7aXwMGOYpgFH6IgsWspv0bIYxGjBA7eTQKKlJ9ZggSRErQm5ERiz5BLbHLwWiExXJhBYCRz8WLwuVJfd/W65/Wr6u6Znp5em09qt7u2uqe7vn4/9epV9RitAiilPL3boTfst+utZv5fi21xLJuta46X9PaR2XfHxsa6VHGMUQWhiQAJvt4eMPsaFQuQ1tbbO9hropaoYqgMMZoMX+/2661OxRORhi6FRL2iSWrTzQ5NRk1vx/R2RVUHHb2dVKH6HBlGIjEqlI5jFKqpPIjsBlTP59RrRzg8CiVvi9nvoPySuEA3gxSBEL21sr+8Qd05vU0V8QbjGuZac33ch083GvRD7cjYEFBpTdN4Q7czKlSl+K0FlU2dNtWIVVwhMA9+MsMDt8oiI+V+6yrbC3Rs1PfaN1SotjqOh8MbCpWygyoGFaq8hRRyOmqI6q1w42/eJBj2WUe1eb01tFFdpuzX9Sh0FrDfYvae+bPHqsc7mNhfoOudy8x9FvObDb097qiG5zhOVYZ508473rKWyqijVagGZ/W2qIp1p6+Ya9Zz3EuaBHVUVW2PClXXFceN+xmuEZHRUuWhpTKSZOp1LNdBuU9Vgr6hGceDw47UUs4HqU01+o5mU6UQpMKXZ85xjVmqAlTooUhAI0+lnJu5X/PaS3PqP+/+K7Xehxf/qy5f+lgNiKZKJ8glPcdolFB2Us67HkyFOntR5cBrv55T++4eV4f33O8k6PInHwf1jj5+IBORKWiq9OfoWM4dDTnKTgqMZC3lvL5U1uFv3R80OjYQZUNEIra5oz8oQoKOOZ4Hqm0x73lDgbKTMuc4J81jS8XpxT+vNHjU6BK+vPq5OrjzGyv1IGVQcQOio9zS07CcVw45yk5Kw3EOnINCDHu8wV3kxKUG28GJ7UWQg2eYdTynjZzcDsGaPJVVaMwbwp+O605Ww3LOSb2DJBUSwpjc/2jP8ZlTb9Bf/9hM1Nv32DSt27B+5fjaF1fp+ae/R599+gkNADwDQkyiFJg2kDqbOMenHMhMjArFuCn8SSRFhbq3Re4IQG7s3L0nUfanl+eDho9j3foNtPe7T/SUfXbpE5o/+kMqAJCMlhJsqWmLeeGcRZWjE5pHYtDI/EZOWUjxTH2fCsb4XXcnykDK6y8l22L31COJsvf+fU5vZ6kA+HprSY2t2wQv4yusGG23SBmRiRijjjxW3NXbtFAX9UDKUIKTkIS4iooAlcalZuOmzbTtvolEXYnEPoFnbFkkAeTwuNwO05apSCVGX6hOSXXU1dsuHoQ0oo23wqMhYt0ttybKQMrZ039PlEsSBqnhJA4Aj0I11aNNTNs8TGEQNY7ZLPbGSYy6HinmOG5JAQIpQw/jr9uwQSyXVNQdAjGAROIAwDMn1JRpo2mhflOlhKnSJAakeKxsXv/gAq9oPBWfSsC69evFckgCx/jWrWLdzvv/o4LhS2pKt9UpSjoDHqU4RVZijN6UVFhDqDtDshs9FFz74guxHF4Xx7pbNliuUZgqi2PW0mdpUDJp5JjLS3NJjGSkjgt2xaMSSQFcb3vWBpdILAiJBjdtJqo0skAkxhgnHhlekFQYyW700FCQqxt4d0OC6BabFKg2K/ZtjoBNYkSDzwuMXfGoRJzWbrELvMFtPX240kME3OKGUC5JjRhFSBBjGPRZ8QL3wkahwtDIZxzEjN+Z9MC+tNij8btkp6BAzAgqrUtJR0CUGklipMQDKf5T+njD6UW3tEge2Hvvyqrvnvt20pARxNWE8gYl+zaJtuwhxjBcZ3Vs0sLrDRWQFsTEXJB6+ZKjAMkasiqLMMWlwTgCPFzj834Nl5hMtoVGIC1Zwig7dz/YcwwPTerb7H2sTiVCaqsFoazHzebE+Oy4XQVpgV05k2L0J3XAkhv+c0LvfuPtm3Vw81EqEb4gNYihtVm9mfjBCjHmZI9V5iIHlC8tL6dLy8HvzyTKTp/6S6LswFNP0wgg2W3+ULU4gWscJy/zfssopAUqLK0zCGnhNgM2iauxg0/NlC0tEaS87DYlnYCVvmOcGJ9VOkVJ+FQiAvf4TbcKg2qSpIXbJBByQKhXEkBKPV5gnIA3Wb0V4QiIUWFit8cq8ZN6TiwDcI/TpAWqSZKWuE3ad2ianj7xAo0Y+4Uy/vLXDBe01hT4wknt+IG6ntRdGtKkBSqMqyZ4Ys/UvxP8f5vuqxzUxG0bfp8lCwKXmMUa21I9vS1FxDzA/tgWMvF9KhF4413SYlNhOAfl2745EdSpGOoUJqYEQBtrstrU27b4/5xNYi4krymK4tBw9szbzr/PPP+C2EnEiOW4ZXCsAvApRozBBept/0BI1hgVJXkM0kVLgyuKDO+qIuopLx4QytrsGHZmC4y/J1TuSSIwBqm00D7sxLWrcvAR6mmE3tWgCBqdlS0J9e4FMXyMflkYz/eoRLiS8kbUQSwSu+IHpq25PfckiZEYHHqCRRzXrsqjkCMIpwwDnlDW5XVAzHZW+Llw4nYqETZv6gaQFmCLUMadLU8aj+kKZaXZF8CWnnTP6jT4HJ5QxlWZaPyXM15saECUmEsNjksaQxk2PKGMt3kN/RguDV3hxFI9MnQSN27a1OMEoHz2kYcS9ieqkyBSnx/uN4dE6/1tug7Sa9HPGWIyRj/osuPaGCZvsMJpIaqsaAgIIsDvnqMP9SgjRho7H1y0Gv6iAXU5fufWgCSoSAxLlxUp0O3bs76CSUPuSWUqnRh0HJGeikGstLkqeKujPDE02sTuPStv+m0WtXY5FsbB9cM+EaTwUurvgSQMT2NuzTBJqhQxiH1h4Eoa6kVjo9GRuYIGRwOhYUBiFJBEwHLmxIs0KEAOVCWkFPfSuXhRJAwETWrXXJrKMSiyELOWSsAz9YMJQkAG3sxgkMvydobR4Zkip02ETsTtm4Nr7zsUTmwCUXgJXn/plyskhfNozgUq9vBPnqWyAWLgEaQZ9y716ZlBUjgpGB85oBs8iwGOwi9n/1Fodn4P4BhMbno0kBBk4sRfhLdebQaz2AqMzS1nqbNGqOhRgZDG3Z/Ub2Aerwjk7CspswW/xSU4LfszJ7J0R0RiJOnpUp/ofJDM6+pHNU2WFIoJcgyYzSk4Ab0rlCW6LGtNxXgs7FbhxI+oD9iixFAXGJ2cmNwTGNdRj5+ACAxj454kEj779BIVCCnklQjTrBUqSgHLLvUBl3uKBoD+xgYdv9Kn0COPUHPDIgv3BE/sMvbwzHQ/Ks2NhrsNByYC7m0AuyMFibnEXBgzE23iObYI+38tXkty57Ig7u72gzAM09uDj2wTOoi3CHYq6scE0hr1YfQbH+6LnRODe5o58UJegh42s8xWgIUdqJecI5EqiyMYzNEnx9VXm0aAoM8RNabQ/xk1IPV48Z788bOB658R3fiBZQR5CcZfHEGLH1gGc76Cwe9/8VzWCVXLwtKPoulYi0bXrPG+jE/JnKc2JWeZOVHBLJW+cWLhtWAfTVvnudTzz/yIfvv2P9Mu845Q5rPjYAQ5Go9psz9uz3hRJ2zjKqsNsGuwI9gmJh8MQkNzb/ytZyEIqLUMU9Sl7Fbe1kE7r4kfxOALubYLlBO2VSxWG6TZZ/DM+Fo151JSriiZRIk29qU6NokhfoJJAJTqObHx9q/TaoctSsEDnCkd0baQ5OJL9fBPQIwxSNy4Swl+Uj6zEyXMdRw6CoqTSVNaeBuvrAu9xnHilEWd5fLOboRx+ju2FvJytYWyKVudODGJzHOS1VkuqZHmRa4mRIZ/QEjzWOuU7L+sCMcKMWaBAC4NUsrjAuXARjPwtVrherGufZl5GFyax8qntHTHYt+p4elL0hz0ng6QZYUHJxCsXK2Y2G2/d8Tc4rA4CbZZ3z6r144fcGLmKIm6UJbrIwM5whWVQlrmJ58baiEx66zvnno9xFhc4seFRdJQR+osiQj19OqzNZhjY4M0N1RwdLKukZCoJ2VicoZti8kdoRweGsbuVxukiVEIyfzu588lFoOQJuhSdmlJuNJjQiUyq7/6rHhcYL9BOaaXS0kZVQUkPP4yIf0JmTUYTOO5b1B5iKUxYo7zhVyNtHTYT6HjuYv/vo0Yn8LlrlIvoOuep4yzAQYdn6kioKYRN2OkwMMa53V1W2FMq86Kd40JXw0Ul8XKubaWtCCnCPQH9q5SR0CCRVLQFtILXCfZtrSFS9s/hWXc5POsuKu3e4VV/vgoqBVBDvK3Hyp8NLFMRDlxew9NSy7yEd0+Pd6tcZ7Qlh6rO25Z9NX9jTIVfkSBW8A5fbEjGeuKqKpKC3MN7OGXsLO8NXChLX2WhF0BzCKms6x43iycLSKNGBvTiXFrUz/z6uRvvfoH7d38jKoCi63IA5sNrlMyX6JLguaJw7m8r2uRTSWvgAp7s0QZsPfQE5VyoZFUMQApeOaHeaFpI9u61U677CQGMMYpsVIQuVfn7lIGIOuxCs7AzPMv6l77g9QnuhRqEGnVdmgQj9UX163mGKMMiP0Id4vhVdjW98+8ajnPFy4LUF+Hf/osTe7vO6M/kBTJgOs2wPPzsL7oRkvIRIz5IY9Ce8ND1TZnIFrm1qcMKNvmwNU9+qvfDBL5bpMgKYBZXbfBilHvXpsXxpGZGPODPiU7nkDD9vXUPNGBKE9r2K50ntkGFlg9KgspgOgw2ZCLGPPDtj6LixycgxuuUQZAtQVLYhVMUAGrMeGtP877KREcpIhutAu5iTE30CBZClzkeCQbQxHoiJ47/XYwBaLz/sW+1+KPpggWMMfFak8AS18FyE0K0Bcx5kYaJJMDcZ22uYN5A58R+pGeeK7zAMBzzDu+wQYtAFLqwp/7ImVgKPtX7Doq/cOeC6r6cH5XTLk/IdmgUUK5yamnnFtVgloq5atI+u/IIrJ9QrJBVYCykwPgU4O1lPOrQBAauanSCcFsiJOO68xSlaDcb1BHpUiPuQYIqqvyPxuPD/Kkeowq/Gh3x3IdPLtPVYRyfxQaaKqM34JU10laVMV+Tv6KuWYmMmL30nJc0/nR737Qt1fmgkofAlgg+wfobNdEeMejMMyDDPmaOa6RfT2crtk+Mvt2zt+M8h1c6gmxpEZaULIyUO7v3UdoFv2mFQG8BCq0Iy5J7aiqqq40qNBQzql0tFQGG1TCvU6pbPYNz5RJDVYaKrvXFXlGU2U8eIyMpspmx1qKZabeEFChV9NS2YG6J03jeTQgzAsyZa7ZynkfPpWIoRj/NJiHrFP+bwXAwEZzeboUrlHQtdT1KFxMApIXOQ55pbBNoZPSppsJ6rqK66jqACoNHebVb0OKgArV3KhIAhkw6D5VBCNRZWlQoYH1KVxyHfui394oeR6TgtvC3PuRo5LEcKjQ8GOLbEU0BRv/lzqYy7Gta/YXzP+X8nQyR4X/A4+xWRmiuMwvAAAAAElFTkSuQmCC"
+                />
+              </defs>
+            </svg>
+          </a>
+          <a href="#" class="header__logo-name">Coffetto</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="home">
+        <div class="home__section-one">
+          <div class="container">
+            <div class="home__section-wrapper">
+              <div class="welcom">
+                <p class="welcom__quote">EXCEPTIONAL QUALITY</p>
+                <h1 class="welcom__title">It's time for a good coffee</h1>
+                <p class="welcom__caption">
+                  Each select coffee bean reflects our commitment to Peruvian
+                  coffee growers, who bring the best select coffee to your table.
+                </p>
+              </div>
+              <div class="home__img-wrapper">
+                <img class="home__img" src="Content/images/svg/img-gahva.svg" alt="" />
+              </div>
+              <a href="Content/costumer_panel.html" class="home__link">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="home__section-two">
+          <div class="container">
+            <div class="description">
+              <div class="description__wraper">
+                <h2 class="description__title">Our History</h2>
+                <p class="description__caption">
+                  We make and grow the best coffee in Peru, accompanying families
+                  since 1930, with professional workers who harvest, collect and
+                  select the coffee with quality work, thus providing exquisite
+                  coffee to enjoy together as a family.
+                </p>
+              </div>
+              <img
+                class="description__img"
+                src="Content/images/image/description-img.png"
+                alt="Our History"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="home__section-three">
+          <div class="container">
+            <div class="information">
+              <h2 class="information__title">
+                Steps of manufacturing our products
+              </h2>
+              <div class="information-product">
+                <div class="information-product__dashed">
+                  <svg
+                    width="180"
+                    height="536"
+                    viewBox="0 0 180 536"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.5 2.05839C76.2017 29.599 115.369 69.7811 141.681 118.172C167.992 166.562 180.425 221.28 177.609 276.29C174.792 331.299 156.835 384.461 125.719 429.911C94.6022 475.361 51.5357 511.332 1.27053 533.857"
+                      stroke="#847571"
+                      stroke-width="2"
+                      stroke-dasharray="16 16"
+                    />
+                  </svg>
+                </div>
+                <div class="information-product__one"></div>
+                <div class="information-product__two"></div>
+                <div class="information-product__three"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <h3 class="footer__title">Coffetto</h3>
+          <div class="footer-item">
+            <a href="#" class="footer-item__link">About Us</a>
+            <a href="#" class="footer-item__link">Menu</a>
+            <a href="#" class="footer-item__link">Delivery</a>
+            <a href="#" class="footer-item__link">Payment</a>
+            <a href="#" class="footer-item__link">Payment</a>
+            <a href="#" class="footer-item__link">Vacancies</a>
+          </div>
+          <div class="footer-social-media">
+            <a href="#" class="footer-social-media__link">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.91797 4.86903C7.10114 4.86903 4.82782 7.16058 4.82782 10C4.82782 12.8394 7.10114 15.131 9.91797 15.131C12.7348 15.131 15.0081 12.8394 15.0081 10C15.0081 7.16058 12.7348 4.86903 9.91797 4.86903ZM9.91797 13.3348C8.09634 13.3348 6.60974 11.8362 6.60974 10C6.60974 8.16376 8.09634 6.66525 9.91797 6.66525C11.7396 6.66525 13.2262 8.16376 13.2262 10C13.2262 11.8362 11.7396 13.3348 9.91797 13.3348ZM15.2166 3.46308C14.5589 3.46308 14.0278 3.99845 14.0278 4.66139C14.0278 5.32434 14.5589 5.8597 15.2166 5.8597C15.8743 5.8597 16.4054 5.32684 16.4054 4.66139C16.4056 4.50397 16.3749 4.34806 16.3153 4.20259C16.2556 4.05711 16.168 3.92493 16.0576 3.81362C15.9472 3.70231 15.8161 3.61405 15.6717 3.5539C15.5274 3.49375 15.3728 3.46289 15.2166 3.46308ZM19.8402 10C19.8402 8.61907 19.8526 7.25064 19.7756 5.87221C19.6987 4.27113 19.3364 2.85017 18.1749 1.67938C17.0109 0.506085 15.6037 0.14334 14.0154 0.065788C12.6455 -0.0117644 11.2879 0.000744113 9.92045 0.000744113C8.5505 0.000744113 7.19296 -0.0117644 5.8255 0.065788C4.23715 0.14334 2.8275 0.508587 1.66602 1.67938C0.50206 2.85267 0.1422 4.27113 0.0652647 5.87221C-0.0116708 7.25314 0.000738194 8.62157 0.000738194 10C0.000738194 11.3784 -0.0116708 12.7494 0.0652647 14.1278C0.1422 15.7289 0.504541 17.1498 1.66602 18.3206C2.82998 19.4939 4.23715 19.8567 5.8255 19.9342C7.19545 20.0118 8.55298 19.9993 9.92045 19.9993C11.2904 19.9993 12.6479 20.0118 14.0154 19.9342C15.6037 19.8567 17.0134 19.4914 18.1749 18.3206C19.3388 17.1473 19.6987 15.7289 19.7756 14.1278C19.8551 12.7494 19.8402 11.3809 19.8402 10ZM17.6562 15.899C17.475 16.3543 17.2566 16.6945 16.9067 17.0448C16.5568 17.3975 16.2217 17.6176 15.77 17.8003C14.4646 18.3231 11.3649 18.2055 9.91797 18.2055C8.47109 18.2055 5.36885 18.3231 4.06343 17.8028C3.61174 17.6201 3.27422 17.4 2.92677 17.0473C2.57684 16.6945 2.35844 16.3568 2.17727 15.9015C1.66106 14.5831 1.7777 11.4585 1.7777 10C1.7777 8.54152 1.66106 5.4144 2.17727 4.09851C2.35844 3.64321 2.57684 3.30298 2.92677 2.95274C3.2767 2.6025 3.61174 2.37985 4.06343 2.19723C5.36885 1.67688 8.47109 1.79446 9.91797 1.79446C11.3649 1.79446 14.4671 1.67688 15.7725 2.19723C16.2242 2.37985 16.5617 2.6 16.9092 2.95274C17.2591 3.30548 17.4775 3.64321 17.6587 4.09851C18.1749 5.4144 18.0582 8.54152 18.0582 10C18.0582 11.4585 18.1749 14.5831 17.6562 15.899Z" fill="black"/>
+                </svg>                
+            </a>
+            <a href="#" class="footer-social-media__link">
+              <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.40258 20V10.8919H10.4806L10.9382 7.32578H7.40258V5.05432C7.40258 4.02527 7.68979 3.32071 9.16926 3.32071H11.0439V0.141321C10.1318 0.0437405 9.21495 -0.0033761 8.29761 0.000187992C5.57689 0.000187992 3.7089 1.65823 3.7089 4.70204V7.31912H0.650879V10.8852H3.71558V20H7.40258Z" fill="black"/>
+                </svg>            
+            </a>
+            <a href="#" class="footer-social-media__link">
+              <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.3463 3.978C18.3592 4.153 18.3592 4.327 18.3592 4.501C18.3592 9.826 14.3384 15.962 6.99018 15.962C4.72629 15.962 2.62311 15.301 0.853271 14.153C1.1747 14.19 1.48422 14.203 1.81855 14.203C3.61715 14.2074 5.36482 13.6011 6.77986 12.482C5.94595 12.4668 5.13757 12.1895 4.4676 11.6887C3.79762 11.188 3.29949 10.4889 3.04276 9.689C3.28978 9.726 3.5378 9.751 3.79772 9.751C4.15585 9.751 4.51597 9.701 4.8503 9.614C3.9453 9.42981 3.13152 8.93535 2.54734 8.21469C1.96316 7.49402 1.64463 6.59165 1.64593 5.661V5.611C2.17867 5.91 2.79672 6.097 3.45149 6.122C2.90296 5.75459 2.45319 5.25602 2.1423 4.67079C1.83141 4.08556 1.66906 3.43186 1.66974 2.768C1.66974 2.02 1.86716 1.334 2.21339 0.736001C3.2175 1.98102 4.46984 2.99956 5.88932 3.72566C7.3088 4.45176 8.86375 4.86922 10.4535 4.951C10.392 4.651 10.3543 4.34 10.3543 4.028C10.354 3.49896 10.4572 2.97506 10.6579 2.48624C10.8586 1.99742 11.153 1.55327 11.5241 1.17919C11.8952 0.805102 12.3358 0.508411 12.8208 0.306078C13.3057 0.103746 13.8255 -0.000262379 14.3503 4.97063e-07C15.5011 4.97063e-07 16.5398 0.486 17.2699 1.272C18.1646 1.09762 19.0225 0.768422 19.8057 0.299C19.5075 1.22982 18.8828 2.0191 18.0487 2.519C18.8421 2.42778 19.6176 2.21745 20.3493 1.895C19.8028 2.6981 19.1256 3.40235 18.3463 3.978Z" fill="black"/>
+                </svg>
+            </a>
+            <a href="#" class="footer-social-media__link">
+              <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.185 2.79727C14.4221 0.992578 12.0743 0 9.57933 0C4.42946 0 0.238876 4.27969 0.238876 9.53906C0.238876 11.2191 0.668032 12.8605 1.48427 14.3086L0.158936 19.25L5.11106 17.9223C6.47426 18.6828 8.00997 19.0824 9.57512 19.0824H9.57933C14.725 19.0824 19.0081 14.8027 19.0081 9.54336C19.0081 6.99531 17.9479 4.60195 16.185 2.79727ZM9.57933 17.4754C8.18247 17.4754 6.81506 17.093 5.62436 16.3711L5.34247 16.1992L2.40569 16.9855L3.18827 14.0594L3.00315 13.7586C2.22477 12.4953 1.81666 11.0387 1.81666 9.53906C1.81666 5.16914 5.30039 1.61133 9.58354 1.61133C11.6578 1.61133 13.6058 2.43633 15.07 3.93594C16.5342 5.43555 17.4346 7.425 17.4304 9.54336C17.4304 13.9176 13.8583 17.4754 9.57933 17.4754ZM13.8372 11.5371C13.6058 11.4168 12.4572 10.841 12.2426 10.7637C12.028 10.682 11.8724 10.6434 11.7167 10.884C11.561 11.1246 11.115 11.6574 10.9762 11.8207C10.8416 11.9797 10.7027 12.0012 10.4713 11.8809C9.09969 11.1805 8.1993 10.6305 7.29471 9.04492C7.05488 8.62383 7.53453 8.65391 7.98051 7.74297C8.05625 7.58398 8.01838 7.44648 7.95948 7.32617C7.90057 7.20586 7.43355 6.03281 7.24001 5.55586C7.05068 5.0918 6.85714 5.15625 6.71408 5.14766C6.57945 5.13906 6.42377 5.13906 6.2681 5.13906C6.11242 5.13906 5.85998 5.19922 5.6454 5.43555C5.43082 5.67617 4.82916 6.25195 4.82916 7.425C4.82916 8.59805 5.66644 9.73242 5.78004 9.89141C5.89785 10.0504 7.42514 12.4566 9.76866 13.4922C11.2497 14.1453 11.8303 14.2012 12.5708 14.0895C13.021 14.0207 13.9508 13.5137 14.1444 12.9551C14.3379 12.3965 14.3379 11.9195 14.279 11.8207C14.2243 11.7133 14.0686 11.6531 13.8372 11.5371Z" fill="black"/>
+                </svg>
+            </a>  
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

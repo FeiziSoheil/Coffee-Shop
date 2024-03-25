@@ -1,0 +1,226 @@
+@media screen and (max-width: 264px) {
+  .container {
+    width: 100%;
+  }
+  .welcom__title {
+    width: 21rem;
+  }
+  .description__img {
+    max-width: 20rem;
+  }
+  .footer-social-media {
+    justify-content: space-around;
+    max-width: 20rem;
+  }
+}
+@media screen and (max-width: 315px) {
+  .container {
+    width: 100%;
+  }
+  .description__img {
+    width: 23rem;
+  }
+  .information-product__one,
+  .information-product__two,
+  .information-product__three {
+    width: 10rem;
+    height: 10rem;
+  }
+  .information-product__one {
+    left: -1rem;
+  }
+  .information-product__two {
+    right: -2rem;
+  }
+  .information-product__three {
+    left: -1rem;
+  }
+  .information-product__one::after,
+  .information-product__two::after,
+  .information-product__three::after {
+    font-size: 1.5rem;
+    max-width: 16rem;
+  }
+  .footer-social-media {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+  }
+  .welcom__title {
+    max-width: 21rem;
+  }
+  .welcom__caption {
+    max-width: 30rem;
+  }
+  .home__img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .home__section-one {
+    height: 90rem;
+  }
+  .list_item{
+    max-width: 30rem !important;
+    width: 100% !important  ;
+  }
+}
+@media screen and (min-width: 576px) {
+  .container {
+    width: 54rem;
+  }
+  .home__section-three {
+    height: 105rem;
+  }
+  .information-product__one::after {
+    top: 5rem;
+    left: auto;
+    right: -25rem;
+    font-size: 1.6rem;
+  }
+  .information-product__two::after {
+    top: 5rem;
+    right: 14rem;
+    text-align: start;
+    font-size: 1.6rem;
+  }
+  .information-product__three::after {
+    top: 5rem;
+    left: auto;
+    right: -23rem;
+    font-size: 1.6rem;
+    max-width: 20rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 72rem;
+  }
+  .home__section-wrapper {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  .welcom {
+    align-items: start;
+  }
+  .welcom__title {
+    margin-left: 0;
+  }
+  .welcom__title::before {
+    bottom: -1.5rem;
+    right: -2.5rem;
+  }
+  .welcom__caption {
+    text-align: start;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+  .home__img-wrapper {
+    margin-top: 5rem;
+  }
+  .home__img {
+    width: 100%;
+    height: 50rem;
+  }
+  .home__link {
+    position: absolute;
+    bottom: -10.5rem;
+  }
+  .home__section-two {
+    height: 50rem;
+  }
+  .description {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  .description__wraper {
+    margin-top: 7rem;
+    text-align: start;
+    max-width: 28rem;
+  }
+  .description__title {
+    margin-top: auto;
+    margin-bottom: 1rem;
+  }
+  .description__caption {
+    text-align: start;
+    margin: auto 0;
+  }
+  .description__img {
+    margin-top: 8rem;
+    width: 35rem;
+    height: 25rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 96rem;
+  }
+  .welcom__title::before {
+    bottom: -1.5rem;
+    right: 0.5rem;
+  }
+  .home__section-three {
+    height: 65rem;
+  }
+  .information__title {
+    max-width: 45rem;
+  }
+  .information-product__dashed {
+    transform: rotate(86.5deg);
+    margin-top: auto;
+    top: -10rem;
+  }
+  .information-product__one,
+  .information-product__two,
+  .information-product__three {
+    width: 15rem;
+    height: 15rem;
+  }
+  .information-product__one {
+    top: 5rem;
+    left: -25rem;
+  }
+  .information-product__two {
+    top: 17rem;
+    right: 3rem;
+  }
+  .information-product__three {
+    top: 5rem;
+    bottom: auto;
+    left: auto;
+    right: -25rem;
+  }
+  .information-product__one::after {
+    top: 17rem;
+    right: auto;
+    left: 0;
+  }
+  .information-product__two::after {
+    top: -10rem;
+    right: -5rem;
+    text-align: start;
+  }
+  .information-product__three::after {
+    top: 17rem;
+    right: auto;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 114rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 137rem;
+  }
+}

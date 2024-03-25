@@ -1,0 +1,33 @@
+.theme--active body{
+    background-color: var(--bg-dark-color) !important;
+    color: var(--text-secondaryColor);
+
+    .search__input-wrapper,input{
+        border-color:white ;
+        color: var(--text-secondaryColor);
+        background-color:var(--bg-dark-color) ;
+    }
+    .totalPrice_card{
+        background-color: rgb(197, 197, 197);
+        color: var(--text-primaryColor);
+        font-weight: 500;
+    }
+    .search__contact-wrapper{
+        fill: antiquewhite;
+        stroke: white;
+    }
+}
+.theme--active .home__section-two{
+    background-color: rgb(42, 43, 54) !important;
+}
+
+.theme--active .property__checkbox-circle{
+    margin-left: 2.7rem;
+    background-color: rgb(30, 30, 30);
+}
+.theme--active .property__checkbox-wrapper{
+    background-color: rgb(137, 137, 137);
+}
+.theme--active .basket__totalPrice-wrapper{
+    background-color: rgb(42, 43, 54) !important;
+}
